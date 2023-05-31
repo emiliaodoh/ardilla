@@ -79,6 +79,12 @@ button {
     text-transform: capitalize;
   }
   .header__sect {
+    a {
+      color: #fff;
+      &.active {
+        color: $sec;
+      }
+    }
     display: none;
     @media(min-width: 1024px){
       display: flex;
